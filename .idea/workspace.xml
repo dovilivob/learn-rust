@@ -6,24 +6,53 @@
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/Ownership/references_and_borrowing/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/Ownership/slice/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/Structs/basics/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/Structs/example/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/EnumsAndPatternMatching/basics/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/EnumsAndPatternMatching/option_enum/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/EnumsAndPatternMatching/match_expression/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/EnumsAndPatternMatching/option_enum_plut_match/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/ModuleSystem/my_project/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/ModuleSystem/restaurant/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="306f4d87-6cfc-4ef9-a295-166bcf8e1fe3" name="Changes" comment="">
+    <list default="true" id="306f4d87-6cfc-4ef9-a295-166bcf8e1fe3" name="Changes" comment="Enums and Pattern Matching">
       <change beforePath="$PROJECT_DIR$/.idea/rust.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnumsAndPatternMatching/option_enum_plut_match/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/EnumsAndPatternMatching/option_enum_plut_match/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ownership/references_and_borrowing/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/Ownership/references_and_borrowing/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="x5p6apyr" />
   </component>
   <component name="ProjectId" id="2RKK3HOv4lVuxhZc6sLZXYfky1K" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,22 +64,49 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/User/Documents/Programming/learn/rust/Ownership/slice",
+    "last_opened_file_path": "C:/Users/User/Documents/Programming/learn/rust/ModuleSystem/restaurant",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "org.rust.hideNoCargoProjectNotificationsC:/Users/User/Documents/Programming/learn/rust/ModuleSystem/restaurant/src/lib.rs": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "language.rust.build.tool.cargo",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RsExternalLinterProjectSettings">
     <option name="runOnTheFly" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command" singleton="false" nameIsGenerated="true">
+      <target name="WSL - Ubuntu" />
+      <option name="command" value="run" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/ModuleSystem/restaurant" />
+      <option name="emulateTerminal" value="false" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="RustfmtProjectSettings">
+    <option name="runRustfmtOnSave" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -61,12 +117,52 @@
       <option name="presentableId" value="Default" />
       <updated>1686993132421</updated>
       <workItem from="1687258063518" duration="43000" />
-      <workItem from="1687258115242" duration="3521000" />
+      <workItem from="1687258115242" duration="3863000" />
+      <workItem from="1687261993522" duration="107000" />
+      <workItem from="1687262109439" duration="322000" />
+      <workItem from="1687262445850" duration="276000" />
+      <workItem from="1687263466300" duration="606000" />
+      <workItem from="1687264086273" duration="7105000" />
+      <workItem from="1687324951237" duration="1385000" />
+      <workItem from="1687326934824" duration="3314000" />
+      <workItem from="1687330262319" duration="37000" />
+      <workItem from="1687330308111" duration="4847000" />
     </task>
+    <task id="LOCAL-00001" summary="Structs">
+      <created>1687271268611</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687271268611</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Enums and Pattern Matching">
+      <created>1687271286518</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687271286518</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Structs" />
+    <MESSAGE value="Enums and Pattern Matching" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enums and Pattern Matching" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

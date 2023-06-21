@@ -3,7 +3,6 @@ fn main() {
     1. At any given time, you can have either one mutable reference or multiple immutable references
     2. References must always be valid   */
 
-
     // declare a immutable String var
     let s1: String = String::from("hello, s1");
     // call a function and pass s1 as a reference
@@ -41,7 +40,6 @@ fn main() {
     // It's ok to declare a mutable reference here, because r1 and r2 are not alive anymore
     let r3: &mut String = &mut s2;
     println!("{}", r3); // The scope of r1 and r2 ends here
-
 
     // let reference_to_nothing: &String = dangle(); // Error: borrowed value does not live long enough
 }

@@ -5,8 +5,24 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Ownership/references_and_borrowing/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Ownership/slice/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EnumsAndPatternMatching/basics/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EnumsAndPatternMatching/match_expression/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EnumsAndPatternMatching/option_enum/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EnumsAndPatternMatching/option_enum_plut_match/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Structs/basics/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Structs/example/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ModuleSystem/my_project/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ModuleSystem/restaurant/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/Ownership/references_and_borrowing/target" />
       <excludeFolder url="file://$MODULE_DIR$/Ownership/slice/target" />
+      <excludeFolder url="file://$MODULE_DIR$/EnumsAndPatternMatching/basics/target" />
+      <excludeFolder url="file://$MODULE_DIR$/EnumsAndPatternMatching/match_expression/target" />
+      <excludeFolder url="file://$MODULE_DIR$/EnumsAndPatternMatching/option_enum/target" />
+      <excludeFolder url="file://$MODULE_DIR$/EnumsAndPatternMatching/option_enum_plut_match/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Structs/basics/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Structs/example/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ModuleSystem/my_project/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ModuleSystem/restaurant/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
