@@ -14,13 +14,29 @@
     <cargoProject FILE="$PROJECT_DIR$/EnumsAndPatternMatching/option_enum_plut_match/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/ModuleSystem/my_project/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/ModuleSystem/restaurant/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/CommonCollections/vectors/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/CommonCollections/strings/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/CommonCollections/hashmaps/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/ErrorHandling/panic_macro/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/ErrorHandling/result_enum/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/ErrorHandling/error_propagation/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/GenericTypes/generic_function_arguments/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/GenericTypes/struct_definitions/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/GenericTypes/performance_impact/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/Traits/basics/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/Traits/trait_bounds/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/Traits/conditionally_impl_methods/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/Lifetimes/basics/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/Lifetimes/generical_lifetime_annotation/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/Lifetimes/in_struct/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/Lifetimes/lifetime_ellision/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/Lifetimes/putting_it_all_together/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="306f4d87-6cfc-4ef9-a295-166bcf8e1fe3" name="Changes" comment="Enums and Pattern Matching">
+    <list default="true" id="306f4d87-6cfc-4ef9-a295-166bcf8e1fe3" name="Changes" comment="Lifetimes">
       <change beforePath="$PROJECT_DIR$/.idea/rust.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnumsAndPatternMatching/option_enum_plut_match/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/EnumsAndPatternMatching/option_enum_plut_match/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ownership/references_and_borrowing/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/Ownership/references_and_borrowing/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ownership/slice/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/Ownership/slice/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +80,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/User/Documents/Programming/learn/rust/ModuleSystem/restaurant",
+    "last_opened_file_path": "C:/Users/User/Documents/Programming/learn/rust/Lifetimes/putting_it_all_together",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,7 +91,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "language.rust.build.tool.cargo",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -101,6 +117,32 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration name="new [references_and_borrowing]" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="new vectors" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/CommonCollections/vectors" />
+      <option name="emulateTerminal" value="false" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cargo.Run" />
+      <item itemvalue="Cargo.new [references_and_borrowing]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.new [references_and_borrowing]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
@@ -126,7 +168,10 @@
       <workItem from="1687324951237" duration="1385000" />
       <workItem from="1687326934824" duration="3314000" />
       <workItem from="1687330262319" duration="37000" />
-      <workItem from="1687330308111" duration="4847000" />
+      <workItem from="1687330308111" duration="10581000" />
+      <workItem from="1687585467341" duration="671000" />
+      <workItem from="1687590994401" duration="709000" />
+      <workItem from="1687591714064" duration="13082000" />
     </task>
     <task id="LOCAL-00001" summary="Structs">
       <created>1687271268611</created>
@@ -142,7 +187,55 @@
       <option name="project" value="LOCAL" />
       <updated>1687271286518</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Module System">
+      <option name="closed" value="true" />
+      <created>1687344760334</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687344760334</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Common Collections">
+      <option name="closed" value="true" />
+      <created>1687592242664</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687592242664</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Error Handling">
+      <option name="closed" value="true" />
+      <created>1687597422681</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687597422681</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Generic Types">
+      <option name="closed" value="true" />
+      <created>1687597442176</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687597442176</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Traits">
+      <option name="closed" value="true" />
+      <created>1687601138160</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687601138160</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Lifetimes">
+      <option name="closed" value="true" />
+      <created>1687604551947</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687604551947</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +255,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Structs" />
     <MESSAGE value="Enums and Pattern Matching" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enums and Pattern Matching" />
+    <MESSAGE value="Module System" />
+    <MESSAGE value="Common Collections" />
+    <MESSAGE value="Error Handling" />
+    <MESSAGE value="Generic Types" />
+    <MESSAGE value="Traits" />
+    <MESSAGE value="Lifetimes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lifetimes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

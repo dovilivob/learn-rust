@@ -12,7 +12,24 @@
       <sourceFolder url="file://$MODULE_DIR$/Structs/basics/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Structs/example/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ModuleSystem/my_project/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CommonCollections/hashmaps/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CommonCollections/strings/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CommonCollections/vectors/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ModuleSystem/restaurant/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ErrorHandling/error_propagation/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ErrorHandling/panic_macro/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ErrorHandling/result_enum/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GenericTypes/generic_function_arguments/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GenericTypes/performance_impact/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GenericTypes/struct_definitions/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lifetimes/basics/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lifetimes/generical_lifetime_annotation/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lifetimes/in_struct/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lifetimes/lifetime_ellision/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lifetimes/putting_it_all_together/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Traits/basics/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Traits/conditionally_impl_methods/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Traits/trait_bounds/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/Ownership/references_and_borrowing/target" />
       <excludeFolder url="file://$MODULE_DIR$/Ownership/slice/target" />
       <excludeFolder url="file://$MODULE_DIR$/EnumsAndPatternMatching/basics/target" />
@@ -22,7 +39,24 @@
       <excludeFolder url="file://$MODULE_DIR$/Structs/basics/target" />
       <excludeFolder url="file://$MODULE_DIR$/Structs/example/target" />
       <excludeFolder url="file://$MODULE_DIR$/ModuleSystem/my_project/target" />
+      <excludeFolder url="file://$MODULE_DIR$/CommonCollections/hashmaps/target" />
+      <excludeFolder url="file://$MODULE_DIR$/CommonCollections/strings/target" />
+      <excludeFolder url="file://$MODULE_DIR$/CommonCollections/vectors/target" />
       <excludeFolder url="file://$MODULE_DIR$/ModuleSystem/restaurant/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ErrorHandling/error_propagation/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ErrorHandling/panic_macro/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ErrorHandling/result_enum/target" />
+      <excludeFolder url="file://$MODULE_DIR$/GenericTypes/generic_function_arguments/target" />
+      <excludeFolder url="file://$MODULE_DIR$/GenericTypes/performance_impact/target" />
+      <excludeFolder url="file://$MODULE_DIR$/GenericTypes/struct_definitions/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Lifetimes/basics/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Lifetimes/generical_lifetime_annotation/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Lifetimes/in_struct/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Lifetimes/lifetime_ellision/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Lifetimes/putting_it_all_together/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Traits/basics/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Traits/conditionally_impl_methods/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Traits/trait_bounds/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -18,9 +18,8 @@ fn main() {
     let hello_world: &str = &s[..]; // [..] is equal to [0..=10] & [0..]
     println!("{} {}, {}", hello, world, hello_world);
 
-
     // Array slice
-    let a:[i32; 5] = [4, 2, 0, 6, 9];
+    let a: [i32; 5] = [4, 2, 0, 6, 9];
     let slice: &[i32] = &a[1..3]; // [1..3] is equal to [1..=2] & [1..]
     println!("The slice is: {:?}", slice);
 }
